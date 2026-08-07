@@ -121,6 +121,9 @@ because each ships runnable memory/identity machinery.*
   dream-cycle memory consolidation for OpenClaw agents (tied to the MyClaw platform).
 - **[genesis](https://github.com/our-ark/genesis)** — OurArk's descent engine, also under
   Lineage above: spawns versioned descendant repos with birth provenance.
+- **[nova-tools](https://github.com/mas-bandwidth/nova-tools)** **(ours)** — `nova-check`:
+  boot attestation, link integrity, kernel size budget, and the self/machinery separation
+  as runnable checks; record layer only, every check proven able to say NO.
 
 ## Covenants, constitutions, and welfare
 
