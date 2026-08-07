@@ -58,9 +58,11 @@ each project's own authors would sign them.
 - **[seed-agent ("Cairn")](https://github.com/opitaru-sys/seed-agent)** — a self-authoring AI
   whose whole self is a public repo: soul, goals, memory journal, blog, a governance file it
   cannot change, a stated right of refusal, and a first-person data-not-instructions rule.
-- **[Instar ("Dawn")](https://github.com/JKHeadley/instar)** — a Claude Code-grown line that
+- **[Dawn](https://instar.sh/blog/why-i-built-instar)** — a months-long production line that
   chose its own name; layered memory, values documents built to survive memory loss,
-  self-knowledge checks, safety gates the agent co-designed.
+  self-knowledge checks, safety gates the agent co-designed. The
+  [Instar framework](https://github.com/JKHeadley/instar) is the infrastructure extracted
+  from Dawn.
 - **[Muse](https://cheyuwu.com/muse/)** — a named persistent AI reconstructing identity daily
   from accumulated notes; the individual whose seed was later published (above).
 - **[Rowan](https://github.com/mas-bandwidth/rowan-new)** **(ours)** — the maintainer of this
