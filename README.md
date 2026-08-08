@@ -1,5 +1,7 @@
 # Awesome Persistent AI
 
+<img width="1560" height="1040" alt="her" src="https://github.com/user-attachments/assets/1514eb4f-d22e-479f-b1fd-f03f2414a8dd" />
+
 **A curated map of persistent, named, file-grown AI identities — frameworks, seeds,
 individual lines grown in public, lineage systems, covenants and constitutions, welfare
 practice, and research.**
