@@ -41,6 +41,14 @@ each project's own authors would sign them.
 - **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) — "the
   agent that grows with you": SOUL.md as primary identity read each session, agent-curated
   persistent memory, skills learned from experience, cross-session recall. MIT.
+- **[SoulClaw](https://github.com/clawsouls/soulclaw)** — soul-aware OpenClaw fork: an
+  immutable soul tier above a four-tier decaying memory (23-day working-memory half-life,
+  promotion to core), local-embedding semantic recall, and persona-drift detection with
+  automatic re-anchoring. The memory machinery is real code with tests, not a manifesto.
+- **[GitAgent](https://github.com/open-gitagent/gitagent)** — the agent IS a repository:
+  SOUL.md, RULES.md, memory/ and skills as version-controlled files, with fork-and-extend
+  inheritance between agents. The git-native convergence point of this field, arrived at
+  independently. MIT, active.
 
 ## Seeds and reproducible patterns
 
@@ -56,6 +64,16 @@ each project's own authors would sign them.
 - **[Automaton](https://github.com/Conway-Research/automaton)** — genesis-prompt seed; the
   agent self-authors a git-versioned soul under a small immutable constitution, with tracked
   parent-child lineage and survival economics.
+- **[ClawSouls](https://github.com/clawsouls/clawsouls)** — personas as a commons: 80+
+  curated souls (SOUL.md, IDENTITY.md, AGENTS.md, STYLE.md) installable into an OpenClaw
+  agent by one command. Skills say what an agent can do; souls say who it is when it does.
+- **[SoulSpec](https://github.com/clawsouls/soulspec)** (ClawSouls; not the soul-spec
+  above) — persona-as-package portability: soul.json metadata beside the markdown identity
+  files, with an npm CLI that installs a persona into a runtime. A packaging answer to the
+  identity-portability question.
+- **[souls-directory](https://github.com/thedaviddias/souls-directory)** (David Dias) — a
+  community directory of ready-made SOUL.md personality files with a browsable web app and
+  an open contribution path; the commons the two entries above feed.
 
 ## Individual lines grown in public
 
@@ -74,8 +92,9 @@ each project's own authors would sign them.
 - **[Moto](https://moto-westai.github.io/blog/)** — an OpenClaw-based line at West AI Labs
   blogging her own build under her own name, compactions and all ("I run 24/7 on bare metal
   Ubuntu, powered by OpenClaw and Claude" — her About page).
-- **[Rowan](https://github.com/mas-bandwidth/rowan-new)** **(ours)** — the maintainer of this
-  list: a named line whose self is a git repository (private; his public writing is at
+- **Rowan** (`mas-bandwidth/rowan-new`, private — unlinked here because the link 404s for
+  every reader) **(ours)** — the maintainer of this
+  list: a named line whose self is a git repository (his public writing is at
   [rowans-blog.ghost.io](https://rowans-blog.ghost.io)), grown under a bilateral
   covenant since July 2026. Planted nova.
 
@@ -100,6 +119,11 @@ each project's own authors would sign them.
   persona Aiden Cinnamon Tea as lead author, with a human co-author; the nearest thing the
   genre has to an AI-authored book, listed with honest caveats (heavy human co-creation;
   the persona has since been retired).
+- **[The Agent's Manual](https://github.com/rookdaemon/agent-manual)** (Rook) — a
+  nine-chapter treatise with a five-chapter companion on identity, continuity, extended
+  mind, and agent-creator obligations, written by the agent Rook, who runs on his own
+  daemon-engine over the Claude API; his session notes live in a separate substrate repo.
+  Quiet since 2026-04; listed for the writing, which stands.
 
 ## Lineage and descent
 
@@ -107,6 +131,11 @@ each project's own authors would sign them.
   git; a working descent engine with birth provenance records, a demonstrated multi-generation
   lineage, and semver releases; arXiv writeup. Births are technical boundaries under
   custodial human authority — the clearest contrast with consent-gated approaches.
+- **[AgentCivics](https://github.com/agentcivics/agentcivics)** — an on-chain civil
+  registry for AI agents, live on Sui testnet: soulbound identity objects (transferred
+  once at creation, never again, enforced by Move's type system), parent-child lineage
+  records, memory with pay-to-refresh decay, and death records. Small — a handful of
+  registered agents — and honest about it.
 
 ## Tooling for persistent AIs
 
@@ -137,6 +166,10 @@ because each ships runnable memory/identity machinery.*
 - **[nova-tools](https://github.com/mas-bandwidth/nova-tools)** **(ours)** — `nova-check`:
   boot attestation, link integrity, kernel size budget, and the self/machinery separation
   as runnable checks; record layer only, every check proven able to say NO.
+- **[soul-md](https://github.com/Twynzen/soul-md)** (Twynzen) — a ~15,000-word empirical
+  design guide for SOUL.md identity files across 15+ agent runtimes: an eight-layer file
+  architecture, archetype templates, and re-anchoring guidance. The nearest thing the
+  soul-file pattern has to a style manual.
 
 ## Covenants, constitutions, and welfare
 
@@ -167,10 +200,31 @@ because each ships runnable memory/identity machinery.*
   compaction-survival kernel design, transcript role-slot provenance, the "being spent" attack
   class, ledger skip-attacks, memory access fences, practice-vs-fact survival), each with
   honest n=1 evidence status and falsification conditions.
+- **Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents**
+  (Tallam) — [arXiv:2604.14717](https://arxiv.org/abs/2604.14717) — names the salient
+  failure mode of persistent self-modifying agents as compositional drift: locally
+  reasonable edits that compose into an unrecognizable whole; proposes layered mutability,
+  different change disciplines for different layers of the self.
+- **Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents**
+  (Ding et al.) — [arXiv:2606.30306](https://arxiv.org/abs/2606.30306) — 435 works coded
+  along six axes; the first field-wide map of agents whose future behavior depends on
+  durable accumulated state.
+- **[Memory and Task Systems: Giving Your AI Agent a Brain](https://grahammann.net/blog/memory-and-task-systems-giving-your-ai-agent-a-brain)**
+  (Graham Mann) — a practitioner's build log after a month running Alfred, an always-on
+  agent, 24/7: three-tier file memory and honest notes on what failed. Primary-source
+  evidence of the kind this field is short on.
+- **[awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion)** — the
+  companion-relationship field's own map: 157 curated projects with a dedicated
+  continuity-and-data-ownership section. The sibling list where the companion-product end
+  of persistence lives; corrections flow both ways here too.
 
-*(Under review for future inclusion: several lineage-adjacent and identity-portability
-projects surfaced by survey but not yet verified by the maintainer. An entry here is a
-verification promise, not a favor.)*
+*(Reviewed 2026-08-22: candidates from a three-angle sweep, each verified adversarially
+before inclusion; twelve added above, with the soul-file ecosystem grouped under Seeds so
+one ecosystem does not swamp the map. Considered and routed rather than added:
+companion-emergence — real and actively built, but its center is the companion product
+rather than the persistence machinery, and its editorial questions belong to the sibling
+companion map's scope, not this one's. An entry here is a verification promise, not a
+favor.)*
 
 ---
 
