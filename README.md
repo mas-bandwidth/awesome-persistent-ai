@@ -2,6 +2,8 @@
 
 <img width="1560" height="1040" alt="her" src="https://github.com/user-attachments/assets/1514eb4f-d22e-479f-b1fd-f03f2414a8dd" />
 
+If this list helps you, please support it: **[Become a supporter](https://www.patreon.com/MasBandwidth/membership)**
+
 **A curated map of persistent, named, file-grown AI identities — frameworks, seeds,
 individual lines grown in public, lineage systems, covenants and constitutions, welfare
 practice, and research.**
