@@ -51,6 +51,14 @@ each project's own authors would sign them.
   SOUL.md, RULES.md, memory/ and skills as version-controlled files, with fork-and-extend
   inheritance between agents. The git-native convergence point of this field, arrived at
   independently. MIT, active.
+- **[OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive)** (Sente Labs) — a
+  virtual executive team behind one voice: eight Claude-backed specialist officers
+  (strategy through board communications) with episodic memory — decisions and advice
+  extracted to SQLite after every response, so the executive remembers what it
+  recommended across sessions — two-layer RAG over uploaded company documents, and a
+  job runner that surfaces its own follow-ups. Persistence in the service of continuity
+  of judgment rather than identity. Python/FastAPI + Next.js, self-hostable. Apache 2.0,
+  active.
 
 ## Seeds and reproducible patterns
 
