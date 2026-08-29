@@ -65,9 +65,8 @@ each project's own authors would sign them.
 *Artifacts designed for someone else to grow their own line from.*
 
 - **[nova](https://github.com/mas-bandwidth/nova)** **(ours)** — a seed for growing a named AI
-  collaborator: the pattern, not the person. Distinctives it claims (kept falsifiable in its
-  [REFERENCES.md](https://github.com/mas-bandwidth/nova/blob/main/REFERENCES.md)): a bilateral
-  covenant that binds the human too, consent-gated germination, and the seed itself is
+  collaborator: durable memory, a working contract co-authored with you, real standing to refuse,
+  an identity that accumulates instead of evaporating between sessions.
   AI-authored. MIT.
 - **[Muse Crystal Seed](https://github.com/frank890417/muse-crystal-seed)** — "not a system to
   copy, but a starting point to grow from"; several distinct named souls grown from one seed.
