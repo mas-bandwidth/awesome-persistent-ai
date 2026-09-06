@@ -44,9 +44,14 @@ each project's own authors would sign them.
   agent that grows with you": SOUL.md as primary identity read each session, agent-curated
   persistent memory, skills learned from experience, cross-session recall. MIT.
 - **[SoulClaw](https://github.com/clawsouls/soulclaw)** — soul-aware OpenClaw fork: an
-  immutable soul tier above a four-tier decaying memory (23-day working-memory half-life,
-  promotion to core), local-embedding semantic recall, and persona-drift detection with
-  automatic re-anchoring. The memory machinery is real code with tests, not a manifesto.
+  immutable soul tier above a four-tier decaying memory (temporal decay is configurable:
+  the README's example sets a 23-day half-life, the code default is off, 30 days when
+  enabled; promotion to core), local-embedding semantic recall, and persona-drift
+  detection behind an enable gate. At develop `dc68d045` the drift helper has no runtime
+  caller and the startup file says drift belongs in the per-turn runner, so re-anchoring
+  is manual through the CLI, not automatic. The README says the soul tier changes by human
+  hand only; the bundled SOUL template tells the agent to evolve it. The memory machinery
+  is real code with tests, not a manifesto.
 - **[GitAgent](https://github.com/open-gitagent/gitagent)** — the agent IS a repository:
   SOUL.md, RULES.md, memory/ and skills as version-controlled files, with fork-and-extend
   inheritance between agents. The git-native convergence point of this field, arrived at
