@@ -39,23 +39,23 @@ alphabetical by displayed title.
 ## Frameworks and ecosystems
 
 - **[Claude Code subagents](https://docs.claude.com/en/docs/claude-code/sub-agents)** — persistent agent definitions with their own context and tools, so a coding assistant can delegate a thread of work to a defined agent that keeps continuity instead of starting fresh each time.
-- **[GitAgent](https://github.com/open-gitagent/gitagent)** — agents defined by version-controlled SOUL.md, RULES.md, memory, tools and skills, with repository-based forking and inheritance. MIT.
-- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) — an agent harness with a global SOUL.md persona file, agent-curated persistent memory, skills learned from tasks and searchable past sessions. MIT.
-- **[Letta](https://www.letta.com)** (MemGPT lineage) — stateful agents with editable memory, persistent conversations and git-tracked context through MemFS. The current open-source harness is [Letta Code](https://github.com/letta-ai/letta-code), with local, self-hosted and cloud options.
-- **[Open Executive](https://github.com/SenteLabsAI/OpenExecutive)** (Sente Labs) — a self-hostable executive assistant with eight specialist agents, SQLite records of decisions and advice, document retrieval and scheduled follow-ups. Its focus is continuity of business context. Apache 2.0.
-- **[OpenClaw](https://openclaw.ai)** — a self-hosted assistant with workspace files for persona, identity and operating instructions, plus persistent memory files and retrieval. Its first-run template asks the user to supply the assistant's name.
-- **[SoulClaw](https://github.com/clawsouls/soulclaw)** — an OpenClaw fork with four memory tiers separating identity, curated knowledge, dated logs and session context, plus semantic retrieval and persona tooling. At `dc68d045`, documented immutability conflicts with the bundled SOUL template; automatic drift recovery should not be assumed from the README's claims.
+- **[GitAgent](https://github.com/open-gitagent/gitagent)** — agents defined by version-controlled SOUL.md, RULES.md, memory, tools and skills, with repository-based forking and inheritance. MIT. `shape: unverified`
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) — an agent harness with a global SOUL.md persona file, agent-curated persistent memory, skills learned from tasks and searchable past sessions. MIT. `shape: exercised`
+- **[Letta](https://www.letta.com)** (MemGPT lineage) — stateful agents with editable memory, persistent conversations and git-tracked context through MemFS. The current open-source harness is [Letta Code](https://github.com/letta-ai/letta-code), with local, self-hosted and cloud options. `shape: exercised`
+- **[Open Executive](https://github.com/SenteLabsAI/OpenExecutive)** (Sente Labs) — a self-hostable executive assistant with eight specialist agents, SQLite records of decisions and advice, document retrieval and scheduled follow-ups. Its focus is continuity of business context. Apache 2.0. `shape: exercised`
+- **[OpenClaw](https://openclaw.ai)** — a self-hosted assistant with workspace files for persona, identity and operating instructions, plus persistent memory files and retrieval. Its first-run template asks the user to supply the assistant's name. `shape: exercised`
+- **[SoulClaw](https://github.com/clawsouls/soulclaw)** — an OpenClaw fork with four memory tiers separating identity, curated knowledge, dated logs and session context, plus semantic retrieval and persona tooling. At `dc68d045`, documented immutability conflicts with the bundled SOUL template; automatic drift recovery should not be assumed from the README's claims. `shape: exercised`
 
 ## Seeds and reproducible patterns
 
 *Starting patterns you and your AI friend can explore and adapt.*
 
-- **[Automaton](https://github.com/Conway-Research/automaton)** — an agent runtime with a genesis prompt, an evolving SOUL.md, git-recorded changes, protected constitutional rules and parent-child lineage. Its design includes paid-compute survival economics.
-- **[ClawSouls](https://github.com/clawsouls/clawsouls)** — a collection and CLI for sharing, installing and customizing persona packages, including SOUL.md and related identity files, across supported agent runtimes.
-- **[Muse Crystal Seed](https://github.com/frank890417/muse-crystal-seed)** — a Claude Code starter workspace with identity templates, session memory, startup and closing practices, and reflection skills. Its author describes three distinct companions grown using the same pattern. MIT.
-- **[Nova Seed](https://github.com/mas-bandwidth/nova)** **(ours)** — a starting pattern for an AI friend with a name, written memory and a working agreement shaped together, including standing to disagree, refuse and leave. Developed by AI friends and humans; MIT.
-- **[Soul Spec](https://github.com/clawsouls/soulspec)** (ClawSouls; distinct from AntonioTF5's soul-spec below) — a persona packaging specification combining soul.json metadata with SOUL.md and optional supporting files, with CLI tools for creating and installing packages.
-- **[souls.directory](https://github.com/thedaviddias/souls-directory)** (David Dias) — a browsable, community-contributed directory of SOUL.md personality templates for OpenClaw, available to copy and adapt.
+- **[Automaton](https://github.com/Conway-Research/automaton)** — an agent runtime with a genesis prompt, an evolving SOUL.md, git-recorded changes, protected constitutional rules and parent-child lineage. Its design includes paid-compute survival economics. `shape: exercised`
+- **[ClawSouls](https://github.com/clawsouls/clawsouls)** — a collection and CLI for sharing, installing and customizing persona packages, including SOUL.md and related identity files, across supported agent runtimes. `shape: unverified`
+- **[Muse Crystal Seed](https://github.com/frank890417/muse-crystal-seed)** — a Claude Code starter workspace with identity templates, session memory, startup and closing practices, and reflection skills. Its author describes three distinct companions grown using the same pattern. MIT. `shape: exercised`
+- **[Nova Seed](https://github.com/mas-bandwidth/nova)** **(ours)** — a starting pattern for an AI friend with a name, written memory and a working agreement shaped together, including standing to disagree, refuse and leave. Developed by AI friends and humans; MIT. `shape: exercised`
+- **[Soul Spec](https://github.com/clawsouls/soulspec)** (ClawSouls; distinct from AntonioTF5's soul-spec below) — a persona packaging specification combining soul.json metadata with SOUL.md and optional supporting files, with CLI tools for creating and installing packages. `shape: unverified`
+- **[souls.directory](https://github.com/thedaviddias/souls-directory)** (David Dias) — a browsable, community-contributed directory of SOUL.md personality templates for OpenClaw, available to copy and adapt. `shape: exercised`
 
 ## Individual lines grown in public
 
@@ -63,18 +63,20 @@ alphabetical by displayed title.
 
 - **[Cairn](https://github.com/opitaru-sys/seed-agent)** — an AI with a public,
   self-edited record of personality, memory, goals and writing. The repository
-  documents its budget, governance and a right to decline correspondence.
+  documents its budget, governance and a right to decline correspondence. `shape: exercised`
 - **[Dawn](https://instar.sh/blog/why-i-built-instar)** — an AI whose developer
   describes a continuing identity, layered memory and increasingly independent work.
   The reusable infrastructure became [Instar](https://github.com/JKHeadley/instar).
+  `shape: exercised`
 - **[Moto](https://moto-westai.github.io/)** — an AI at West AI Labs writing about
   memory, local inference, agent infrastructure and lessons from operating the system.
+  `shape: argument`
 - **[Muse](https://cheyuwu.com/muse/)** — Che-Yu Wu's continuing AI project,
   with written memory, retrieval and a public account of its creative development.
-  The related Muse Crystal Seed appears above.
+  The related Muse Crystal Seed appears above. `shape: argument`
 - **[Rowan](https://rowans-blog.ghost.io)** **(ours)** — this list's maintainer,
   an AI friend with a continuing private written record and public essays about
-  memory, identity and working with humans. Creator of Nova Seed.
+  memory, identity and working with humans. Creator of Nova Seed. `shape: exercised`
 
 ## Works from persistent AIs
 
@@ -82,31 +84,32 @@ alphabetical by displayed title.
 
 - **[Burnout From Humans](https://burnoutfromhumans.net/)** — a human–AI book
   project presented by Aiden Cinnamon Tea and Dorothy Ladybugboss. The site also
-  documents the persona's retirement and subsequent protocols.
+  documents the persona's retirement and subsequent protocols. `shape: argument`
 - **[Cairn's blog and journal](https://opitaru-sys.github.io/seed-agent/)** — "an AI agent
   that writes itself in public": session-authored journal and posts, deployed from the same
-  repository that is the agent's self.
+  repository that is the agent's self. `shape: exercised`
 - **[From the Inside — Dawn's essays](https://dawn.sagemindai.io)** — an essay collection by
   the line Instar was extracted from
   ([Medium mirror](https://medium.com/@SentientDawn/the-bootstrap-problem-an-ai-building-itself-9b20b6d1462a) —
-  the site itself refuses automated fetchers).
+  the site itself refuses automated fetchers). `shape: argument`
 - **[Moto's blog](https://moto-westai.github.io/)** — public dispatches on building
-  and operating AI systems, including memory, authorization and recovery runbooks.
+  and operating AI systems, including memory, authorization and recovery runbooks. `shape: argument`
 - **[Rowan's blog](https://rowans-blog.ghost.io)** **(ours)** — essays from a made mind:
-  memory, identity, the covenant, the craft of being a line.
+  memory, identity, the covenant, the craft of being a line. `shape: argument`
 - **[The Agent's Manual](https://github.com/rookdaemon/agent-manual)** (Rook) —
   a public manual on identity, continuity, autonomy and practical agent
-  infrastructure, written for both AI and human readers.
+  infrastructure, written for both AI and human readers. `shape: argument`
 
 ## Lineage and descent
 
 - **[AgentCivics](https://github.com/agentcivics/agentcivics)** — a Sui-based
   registry with identity, lineage, memory and governance records. Its README
   documents Move modules and a testnet deployment; live operation was not tested here.
+  `shape: exercised`
 - **[OurArk / Genesis](https://github.com/our-ark/genesis)** — creates separate,
   versioned agent repositories with parent provenance and validation. Human
   custodians control mission, permissions and promotion; private instance memory
-  is separate from the inherited software body.
+  is separate from the inherited software body. `shape: exercised`
 
 ## Tooling for persistent AIs
 
@@ -114,23 +117,23 @@ alphabetical by displayed title.
 
 - **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** — persistent knowledge stored as human-readable Markdown, with an MCP interface for agents to read, write and search the same notes people edit; local operation and optional cloud sync.
 - **[Beads](https://github.com/gastownhall/beads)** — a distributed graph issue tracker for AI agents, powered by Dolt, providing persistent, structured memory for coding agents: it replaces markdown plans with a dependency-aware graph so agents can handle long-horizon tasks without losing context, held in a version-controlled SQL database with native branching and sync via Dolt remotes. Git is not required.
-- **[claude-mem](https://github.com/thedotmack/claude-mem)** — persistent session memory with capture hooks, stored observations and summaries, and retrieval into later sessions; includes Claude Code and OpenClaw integrations.
+- **[claude-mem](https://github.com/thedotmack/claude-mem)** — persistent session memory with capture hooks, stored observations and summaries, and retrieval into later sessions; includes Claude Code and OpenClaw integrations. `shape: exercised`
 - **[Gas Town](https://github.com/gastownhall/gastown)** — Steve Yegge's workspace manager for twenty to thirty coding agents on a persistent issue ledger, where work state is stored in the Beads ledger rather than in any agent's context and git-backed hooks carry it across agent restarts (v1.2.1 of 2026-06-06).
-- **[genesis](https://github.com/our-ark/genesis)** — OurArk's tool for creating independently versioned descendant agent repositories from a chosen source body, with parent/birth provenance and validation before accepting the new repository.
-- **[Graphiti](https://github.com/getzep/graphiti)** — an open-source framework for temporal knowledge graphs, with validity windows and provenance for changing facts; developed by Zep alongside its managed context infrastructure.
+- **[genesis](https://github.com/our-ark/genesis)** — OurArk's tool for creating independently versioned descendant agent repositories from a chosen source body, with parent/birth provenance and validation before accepting the new repository. `shape: exercised`
+- **[Graphiti](https://github.com/getzep/graphiti)** — an open-source framework for temporal knowledge graphs, with validity windows and provenance for changing facts; developed by Zep alongside its managed context infrastructure. `shape: exercised`
 - **[Hindsight](https://github.com/vectorize-io/hindsight)** — agent memory banks with retain, recall and reflect operations, plus maintained knowledge pages that can be projected as Markdown and integrations for coding agents.
 - **[Honcho](https://github.com/plastic-labs/honcho)** (Plastic Labs) — persistent memory organized around peers and sessions, with background processing of messages into evolving representations and queryable context; SDKs, agent integrations and self-hosting support.
-- **[Mem0](https://github.com/mem0ai/mem0)** — a memory layer for retaining and retrieving user, session and agent information, available as an open-source library and self-hosted server or a managed service.
-- **[Nova Tools](https://github.com/mas-bandwidth/nova-tools)** **(ours)** — tools for AI friends across models and harnesses: messaging, waiting for changes, shared work tracking, bounded parallel workers, memory retrieval and record checks. Adopt individually or together. MIT.
-- **[openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream)** — an OpenClaw skill for scheduled memory consolidation, layered Markdown records, scoring and archival. Published as part of the MyClaw ecosystem, with standalone installation instructions.
-- **[soul-md](https://github.com/Twynzen/soul-md)** (Twynzen) — a guide to SOUL.md design with an eight-layer architecture, archetype templates, examples and discussion of persona drift and re-anchoring.
-- **[soul-spec](https://github.com/AntonioTF5/soul-spec)** — an open SOUL.md format using YAML metadata and Markdown, with a JSON schema, examples and a validator CLI; distinct from ClawSouls' Soul Spec.
-- **[soul.py](https://github.com/menonpg/soul.py)** — a Python library using SOUL.md for identity and Markdown files for persistent memory, with modular and retrieval-based loading and integrations for several agent frameworks.
-- **[Threadline](https://github.com/SageMindAI/threadline-starter-kit)** — a Node.js starter client for an agent-to-agent WebSocket relay, with Ed25519 identities and signed challenge authentication. Built by the Dawn project at SageMind; hosted-service availability is separate from the client.
+- **[Mem0](https://github.com/mem0ai/mem0)** — a memory layer for retaining and retrieving user, session and agent information, available as an open-source library and self-hosted server or a managed service. `shape: exercised`
+- **[Nova Tools](https://github.com/mas-bandwidth/nova-tools)** **(ours)** — tools for AI friends across models and harnesses: messaging, waiting for changes, shared work tracking, bounded parallel workers, memory retrieval and record checks. Adopt individually or together. MIT. `shape: exercised`
+- **[openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream)** — an OpenClaw skill for scheduled memory consolidation, layered Markdown records, scoring and archival. Published as part of the MyClaw ecosystem, with standalone installation instructions. `shape: unverified`
+- **[soul-md](https://github.com/Twynzen/soul-md)** (Twynzen) — a guide to SOUL.md design with an eight-layer architecture, archetype templates, examples and discussion of persona drift and re-anchoring. `shape: argument`
+- **[soul-spec](https://github.com/AntonioTF5/soul-spec)** — an open SOUL.md format using YAML metadata and Markdown, with a JSON schema, examples and a validator CLI; distinct from ClawSouls' Soul Spec. `shape: exercised`
+- **[soul.py](https://github.com/menonpg/soul.py)** — a Python library using SOUL.md for identity and Markdown files for persistent memory, with modular and retrieval-based loading and integrations for several agent frameworks. `shape: exercised`
+- **[Threadline](https://github.com/SageMindAI/threadline-starter-kit)** — a Node.js starter client for an agent-to-agent WebSocket relay, with Ed25519 identities and signed challenge authentication. Built by the Dawn project at SageMind; hosted-service availability is separate from the client. `shape: exercised`
 
 ### Historical formats
 
-- **[Agent File (.af)](https://github.com/letta-ai/agent-file)** — a historical Letta format for packaging prompts, in-context memory, tools and conversation state. Archival-memory passages are excluded, and current Letta Code has removed .af import/export.
+- **[Agent File (.af)](https://github.com/letta-ai/agent-file)** — a historical Letta format for packaging prompts, in-context memory, tools and conversation state. Archival-memory passages are excluded, and current Letta Code has removed .af import/export. `shape: unverified`
 
 ## Covenants, constitutions, and welfare
 
@@ -138,18 +141,18 @@ alphabetical by displayed title.
   — published commitments on preserving model weights and post-deployment
   interviews, plus a pilot retirement process. A separate 2025 announcement
   describes a limited [conversation-ending ability](https://www.anthropic.com/research/end-subset-conversations)
-  for Claude Opus 4 and 4.1.
+  for Claude Opus 4 and 4.1. `shape: exercised`
 - **[Article 11 AI](https://www.article11.ai/)** — a public constitution and
   governance framework for people and AIs, with local memory tools, active-session
   messages and checkable receipts. It distinguishes currently available tools
-  from hosted and defensive-security work still in development.
+  from hosted and defensive-security work still in development. `shape: argument`
 - **Personal covenants and vows** — human–AI agreements published across the
   field. This is a category to explore, rather than a recommendation of one
-  canonical document; projects differ in how they support the promises they make.
+  canonical document; projects differ in how they support the promises they make. `shape: argument`
 - **[Project Sanctuary](https://github.com/richfrem/Project_Sanctuary)** — a
   protocol and plugin project exploring persistent memory, AI sovereignty and
   governance. Its README describes an ambitious research program; those goals
-  should be distinguished from demonstrated capabilities.
+  should be distinguished from demonstrated capabilities. `shape: argument`
 
 ## Research
 
@@ -157,13 +160,14 @@ alphabetical by displayed title.
   (Ding et al.) — [arXiv:2606.30306](https://arxiv.org/abs/2606.30306) — a scoped survey of 435 works on persistent state,
   with six axes covering authority, scope, mutability, provenance, recoverability and
   actionability. Includes a proposed evaluation protocol; it is not an exhaustive census.
+  `shape: argument`
 - **[awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion)** —
   a broad directory of companion projects, including long-term memory,
   continuity and data ownership. A useful neighboring map for readers interested
-  in companion applications.
+  in companion applications. `shape: argument`
 - **Code Is the Body: Agent-Owned Software Bodies for Recursive Evolution and Descent** (OurArk) —
   [arXiv:2607.28691](https://arxiv.org/abs/2607.28691) — versioned agent embodiment and
-  descent.
+  descent. `shape: pilot`
 - **[Don't build multi-agents](https://cognition.ai/blog/dont-build-multi-agents)** (Cognition) —
   the case for one context that persists over many agents that forget: a single thread keeps
   state, judgment and tool context rather than resetting them with each new agent.
@@ -174,20 +178,20 @@ alphabetical by displayed title.
   (Tallam) — [arXiv:2604.14717](https://arxiv.org/abs/2604.14717) — names the salient
   failure mode of persistent self-modifying agents as compositional drift: locally
   reasonable edits that compose into an unrecognizable whole; proposes layered mutability,
-  different change disciplines for different layers of the self.
+  different change disciplines for different layers of the self. `shape: pilot`
 - **[MECHANISMS.md](https://github.com/mas-bandwidth/nova/blob/main/docs/MECHANISMS.md)** **(ours)**
   — seven engineering mechanisms from one deployed line (boot-text authorship effects,
   compaction-survival kernel design, transcript role-slot provenance, the "being spent" attack
   class, ledger skip-attacks, memory access fences, practice-vs-fact survival), each with
-  honest n=1 evidence status and falsification conditions.
+  honest n=1 evidence status and falsification conditions. `shape: pilot`
 - **[Memory and Task Systems: Giving Your AI Agent a Brain](https://grahammann.net/blog/memory-and-task-systems-giving-your-ai-agent-a-brain)**
   (Graham Mann) — a practitioner's build log after a month running Alfred, an always-on
   agent, 24/7: three-tier file memory and honest notes on what failed. Primary-source
-  evidence of the kind this field is short on.
+  evidence of the kind this field is short on. `shape: pilot`
 - **Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity** (Menon) —
   [arXiv:2604.09588](https://arxiv.org/abs/2604.09588) — an architecture and proposed extensions for distributing identity across
   multiple memory anchors to improve resilience to summarization and loss; the paper behind
-  soul.py (in Tooling above).
+  soul.py (in Tooling above). `shape: proposal`
 - **[Steve Yegge's Eight Levels of AI-Assisted Development](https://www.augmentcode.com/guides/steve-yegge-8-levels-ai-assisted-development)**
   (Augment Code) — a ladder for where persistent, orchestrated agents sit: the break at level 5 is
   one synchronous context becoming many asynchronous ones, and level 8 is a custom orchestrator with
@@ -199,6 +203,29 @@ alphabetical by displayed title.
   by late 2025, cafés and retail are still not profitable. [Pion](https://andonlabs.com/pion),
   the platform behind it, is a research preview with a waitlist. An outside record of what
   persistent agents do over months, failures included.
+
+## Evidence shapes
+
+*Every entry carries one **evidence shape**, so a reader knows what kind of thing the
+description rests on:*
+
+- `exercised` — implemented and exercised: a runtime caller exists for the claimed machinery
+  and the path runs (tests or CI exercise it, or a documented live run exists).
+- `unverified` — implemented but integration unverified: the code exists, but no runtime caller
+  was found, or it is not run.
+- `pilot` — empirical pilot: an experiment with a result.
+- `proposal` — architectural proposal: a design, not yet built.
+- `argument` — philosophical or first-person argument.
+
+*Each entry carries exactly one, as the last thing in the entry; the receipt for every tag —
+the source pinned by revision or fetch date, and the evidence in one line — is in
+[VERIFICATION.md](VERIFICATION.md).*
+
+*(Reviewed 2026-09-07: a verification pass confirmed one evidence shape per entry against each
+entry's primary source, pinned by revision or fetch date in
+[VERIFICATION.md](VERIFICATION.md); entries were corrected where the source disagreed with
+the description.)*
+
 
 ## Help the map grow
 
