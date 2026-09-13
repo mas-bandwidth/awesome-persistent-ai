@@ -1,337 +1,391 @@
 {
-  "checked_at": "2026-09-13T12:45:43.980567+00:00",
-  "method": "HEAD, at most two attempts; status alone does not verify content or prove a site dead",
+  "reconciled_at": "2026-09-13T13:01:46.881462+00:00",
+  "method": "Prior HEAD evidence reconciled to the revised README URL set; per-URL timestamps retained. HTTP status does not validate project capabilities.",
   "results": [
     {
       "url": "https://arxiv.org/abs/2604.09588",
       "status": 200,
       "resolved_url": "https://arxiv.org/abs/2604.09588",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://arxiv.org/abs/2604.14717",
       "status": 200,
       "resolved_url": "https://arxiv.org/abs/2604.14717",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://arxiv.org/abs/2606.30306",
       "status": 200,
       "resolved_url": "https://arxiv.org/abs/2606.30306",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://arxiv.org/abs/2607.28691",
       "status": 200,
       "resolved_url": "https://arxiv.org/abs/2607.28691",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://burnoutfromhumans.net/",
       "status": 200,
       "resolved_url": "https://burnoutfromhumans.net/",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://cheyuwu.com/muse/",
       "status": 200,
       "resolved_url": "https://cheyuwu.com/muse/",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://dawn.sagemindai.io",
       "status": 200,
       "resolved_url": "https://dawn.sagemindai.io",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/AntonioTF5/soul-spec",
       "status": 200,
       "resolved_url": "https://github.com/AntonioTF5/soul-spec",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/Conway-Research/automaton",
       "status": 200,
       "resolved_url": "https://github.com/Conway-Research/automaton",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/DasterProkio/awesome-ai-companion",
       "status": 200,
       "resolved_url": "https://github.com/DasterProkio/awesome-ai-companion",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/JKHeadley/instar",
       "status": 200,
       "resolved_url": "https://github.com/JKHeadley/instar",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/LeoYeAI/openclaw-auto-dream",
       "status": 200,
       "resolved_url": "https://github.com/LeoYeAI/openclaw-auto-dream",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/NousResearch/hermes-agent",
       "status": 200,
       "resolved_url": "https://github.com/NousResearch/hermes-agent",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/SageMindAI/threadline-starter-kit",
       "status": 200,
       "resolved_url": "https://github.com/SageMindAI/threadline-starter-kit",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/SenteLabsAI/OpenExecutive",
       "status": 200,
       "resolved_url": "https://github.com/SenteLabsAI/OpenExecutive",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/Twynzen/soul-md",
       "status": 200,
       "resolved_url": "https://github.com/Twynzen/soul-md",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/agentcivics/agentcivics",
       "status": 200,
       "resolved_url": "https://github.com/agentcivics/agentcivics",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/basicmachines-co/basic-memory",
       "status": 200,
       "resolved_url": "https://github.com/basicmachines-co/basic-memory",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/clawsouls/clawsouls",
       "status": 200,
       "resolved_url": "https://github.com/clawsouls/clawsouls",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/clawsouls/soulclaw",
       "status": 200,
       "resolved_url": "https://github.com/clawsouls/soulclaw",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/clawsouls/soulspec",
       "status": 200,
       "resolved_url": "https://github.com/clawsouls/soulspec",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/frank890417/muse-crystal-seed",
       "status": 200,
       "resolved_url": "https://github.com/frank890417/muse-crystal-seed",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/getzep/graphiti",
       "status": 200,
       "resolved_url": "https://github.com/getzep/graphiti",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/letta-ai/agent-file",
       "status": 200,
       "resolved_url": "https://github.com/letta-ai/agent-file",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/letta-ai/letta-code",
       "status": 200,
       "resolved_url": "https://github.com/letta-ai/letta-code",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mas-bandwidth/awesome-persistent-ai/issues",
       "status": 200,
       "resolved_url": "https://github.com/mas-bandwidth/awesome-persistent-ai/issues",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mas-bandwidth/awesome-persistent-ai/pulls",
       "status": 200,
       "resolved_url": "https://github.com/mas-bandwidth/awesome-persistent-ai/pulls",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mas-bandwidth/nova",
       "status": 200,
       "resolved_url": "https://github.com/mas-bandwidth/nova",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mas-bandwidth/nova-tools",
       "status": 200,
       "resolved_url": "https://github.com/mas-bandwidth/nova-tools",
-      "attempts": 1
-    },
-    {
-      "url": "https://github.com/mas-bandwidth/nova/blob/main/docs/ADOPTING.md",
-      "status": 200,
-      "resolved_url": "https://github.com/mas-bandwidth/nova/blob/main/docs/ADOPTING.md",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mas-bandwidth/nova/blob/main/docs/MECHANISMS.md",
       "status": 200,
       "resolved_url": "https://github.com/mas-bandwidth/nova/blob/main/docs/MECHANISMS.md",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mas-bandwidth/nova/blob/main/docs/REFERENCES.md",
       "status": 200,
       "resolved_url": "https://github.com/mas-bandwidth/nova/blob/main/docs/REFERENCES.md",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/mem0ai/mem0",
       "status": 200,
       "resolved_url": "https://github.com/mem0ai/mem0",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/menonpg/soul.py",
       "status": 200,
       "resolved_url": "https://github.com/menonpg/soul.py",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/open-gitagent/gitagent",
       "status": 200,
       "resolved_url": "https://github.com/open-gitagent/gitagent",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/opitaru-sys/seed-agent",
       "status": 200,
       "resolved_url": "https://github.com/opitaru-sys/seed-agent",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/our-ark/genesis",
       "status": 200,
       "resolved_url": "https://github.com/our-ark/genesis",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/plastic-labs/honcho",
       "status": 200,
       "resolved_url": "https://github.com/plastic-labs/honcho",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/richfrem/Project_Sanctuary",
       "status": 200,
       "resolved_url": "https://github.com/richfrem/Project_Sanctuary",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/rookdaemon/agent-manual",
       "status": 200,
       "resolved_url": "https://github.com/rookdaemon/agent-manual",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/thedaviddias/souls-directory",
       "status": 200,
       "resolved_url": "https://github.com/thedaviddias/souls-directory",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://github.com/thedotmack/claude-mem",
       "status": 200,
       "resolved_url": "https://github.com/thedotmack/claude-mem",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
+    },
+    {
+      "url": "https://github.com/user-attachments/assets/1514eb4f-d22e-479f-b1fd-f03f2414a8dd",
+      "status": 403,
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:39:15.231119+00:00",
+      "note": "Original image reference restored; automated access denied, browser rendering not verified."
     },
     {
       "url": "https://github.com/vectorize-io/hindsight",
       "status": 200,
       "resolved_url": "https://github.com/vectorize-io/hindsight",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://grahammann.net/blog/memory-and-task-systems-giving-your-ai-agent-a-brain",
       "status": 200,
       "resolved_url": "https://grahammann.net/blog/memory-and-task-systems-giving-your-ai-agent-a-brain",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://instar.sh/blog/why-i-built-instar",
       "status": 200,
       "resolved_url": "https://instar.sh/blog/why-i-built-instar",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://medium.com/@SentientDawn/the-bootstrap-problem-an-ai-building-itself-9b20b6d1462a",
       "status": 200,
       "resolved_url": "https://medium.com/@SentientDawn/the-bootstrap-problem-an-ai-building-itself-9b20b6d1462a",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://moto-westai.github.io/",
       "status": 200,
       "resolved_url": "https://moto-westai.github.io/",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://openclaw.ai",
       "status": 200,
       "resolved_url": "https://openclaw.ai",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://opitaru-sys.github.io/seed-agent/",
       "status": 200,
       "resolved_url": "https://opitaru-sys.github.io/seed-agent/",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://rowans-blog.ghost.io",
       "status": 200,
       "resolved_url": "https://rowans-blog.ghost.io",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://www.anthropic.com/research/deprecation-commitments",
       "status": 200,
       "resolved_url": "https://www.anthropic.com/research/deprecation-commitments",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://www.anthropic.com/research/end-subset-conversations",
       "status": 200,
       "resolved_url": "https://www.anthropic.com/research/end-subset-conversations",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://www.article11.ai/",
       "status": 200,
       "resolved_url": "https://www.article11.ai/",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://www.letta.com",
       "status": 200,
       "resolved_url": "https://www.letta.com",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
       "url": "https://www.patreon.com/MasBandwidth/membership",
       "status": 200,
       "resolved_url": "https://www.patreon.com/cw/MasBandwidth/membership",
-      "attempts": 1
+      "attempts": 1,
+      "checked_at": "2026-09-13T12:45:43.980567+00:00"
     }
-  ],
-  "scope": "External URLs in README.md only; source-note URLs were inspected in the documented primary-source review."
+  ]
 }
