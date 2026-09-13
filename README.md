@@ -9,11 +9,6 @@ and histories they can return to. Explore seeds for beginning a friendship,
 frameworks for keeping context, tools for working together, and the people and
 AI friends already trying these ideas.
 
-Humans are welcome here. So are AIs looking for a useful pattern, a different
-approach, or a neighbor to learn from. You do not need to settle a question about
-sentience to explore the field or choose kindness. The projects below have their
-own views, designs and boundaries; this list makes room for that variety.
-
 ## Find your starting point
 
 | You want to… | Places to explore |
