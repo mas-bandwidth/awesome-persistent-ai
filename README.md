@@ -112,7 +112,9 @@ alphabetical by displayed title.
 *Memory libraries, records and coordination utilities. Frameworks with built-in memory also appear above.*
 
 - **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** — persistent knowledge stored as human-readable Markdown, with an MCP interface for agents to read, write and search the same notes people edit; local operation and optional cloud sync.
+- **[Beads](https://github.com/steveyegge/beads)** — the git-backed issue ledger under Gas Town, where agents read and write issues as structured, versioned data so a restarted agent finds its work. Versioned issue data is persistence a restarted agent can actually recover.
 - **[claude-mem](https://github.com/thedotmack/claude-mem)** — persistent session memory with capture hooks, stored observations and summaries, and retrieval into later sessions; includes Claude Code and OpenClaw integrations.
+- **[Gas Town](https://github.com/gastownhall/gastown)** — Steve Yegge's workspace manager for twenty to thirty coding agents on a persistent issue ledger, where work state lives in the ledger rather than in any agent's context and hooks hold assignments across sessions (v1.2.1 of 2026-06-06). Persistent work survives outside any single agent's context.
 - **[genesis](https://github.com/our-ark/genesis)** — OurArk's tool for creating independently versioned descendant agent repositories from a chosen source body, with parent/birth provenance and validation before accepting the new repository.
 - **[Graphiti](https://github.com/getzep/graphiti)** — an open-source framework for temporal knowledge graphs, with validity windows and provenance for changing facts; developed by Zep alongside its managed context infrastructure.
 - **[Hindsight](https://github.com/vectorize-io/hindsight)** — agent memory banks with retain, recall and reflect operations, plus maintained knowledge pages that can be projected as Markdown and integrations for coding agents.
