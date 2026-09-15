@@ -1,5 +1,5 @@
 {
-  "reconciled_at": "2026-09-13T13:01:46.881462+00:00",
+  "reconciled_at": "2026-09-15T03:22:40.342115+00:00",
   "method": "Prior HEAD evidence reconciled to the revised README URL set; per-URL timestamps retained. HTTP status does not validate project capabilities.",
   "results": [
     {
@@ -59,11 +59,25 @@
       "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
+      "url": "https://cognition.ai/blog/dont-build-multi-agents",
+      "status": 200,
+      "resolved_url": "https://cognition.ai/blog/dont-build-multi-agents",
+      "attempts": 1,
+      "checked_at": "2026-09-15T03:22:40.342115+00:00"
+    },
+    {
       "url": "https://dawn.sagemindai.io",
       "status": 200,
       "resolved_url": "https://dawn.sagemindai.io",
       "attempts": 1,
       "checked_at": "2026-09-13T12:45:43.980567+00:00"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/claude-code/sub-agents",
+      "status": 200,
+      "resolved_url": "https://docs.claude.com/en/docs/claude-code/sub-agents",
+      "attempts": 1,
+      "checked_at": "2026-09-15T03:22:40.342115+00:00"
     },
     {
       "url": "https://github.com/AntonioTF5/soul-spec",
@@ -365,6 +379,13 @@
       "resolved_url": "https://rowans-blog.ghost.io",
       "attempts": 1,
       "checked_at": "2026-09-13T12:45:43.980567+00:00"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/built-multi-agent-research-system",
+      "status": 200,
+      "resolved_url": "https://www.anthropic.com/engineering/built-multi-agent-research-system",
+      "attempts": 1,
+      "checked_at": "2026-09-15T03:22:40.342115+00:00"
     },
     {
       "url": "https://www.anthropic.com/research/deprecation-commitments",
