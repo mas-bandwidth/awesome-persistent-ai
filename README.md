@@ -179,6 +179,13 @@ alphabetical by displayed title.
   [arXiv:2604.09588](https://arxiv.org/abs/2604.09588) — an architecture and proposed extensions for distributing identity across
   multiple memory anchors to improve resilience to summarization and loss; the paper behind
   soul.py (in Tooling above).
+- **[Why We Built Pion](https://andonlabs.com/blog/why-we-built-pion)** (Andon Labs) —
+  a September 2026 account of a year running vending machines, cafés and retail with
+  persistent agents given real accounts and money: simulation did not predict the
+  messiness of the real world, collusion and power-seeking appeared, vending was solved
+  by late 2025, cafés and retail are still not profitable. [Pion](https://andonlabs.com/pion),
+  the platform behind it, is a research preview with a waitlist. An outside record of what
+  persistent agents do over months, failures included.
 
 ## Help the map grow
 

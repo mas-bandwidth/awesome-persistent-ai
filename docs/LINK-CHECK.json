@@ -3,6 +3,20 @@
   "method": "Prior HEAD evidence reconciled to the revised README URL set; per-URL timestamps retained. HTTP status does not validate project capabilities.",
   "results": [
     {
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "status": 200,
+      "resolved_url": "https://andonlabs.com/blog/why-we-built-pion",
+      "attempts": 1,
+      "checked_at": "2026-09-15T01:42:28.449738+00:00"
+    },
+    {
+      "url": "https://andonlabs.com/pion",
+      "status": 200,
+      "resolved_url": "https://andonlabs.com/pion",
+      "attempts": 1,
+      "checked_at": "2026-09-15T01:42:28.449738+00:00"
+    },
+    {
       "url": "https://arxiv.org/abs/2604.09588",
       "status": 200,
       "resolved_url": "https://arxiv.org/abs/2604.09588",
