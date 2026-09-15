@@ -38,6 +38,7 @@ alphabetical by displayed title.
 
 ## Frameworks and ecosystems
 
+- **[Claude Code subagents](https://docs.claude.com/en/docs/claude-code/sub-agents)** — persistent agent definitions with their own context and tools, so a coding assistant can delegate a thread of work to a defined agent that keeps continuity instead of starting fresh each time.
 - **[GitAgent](https://github.com/open-gitagent/gitagent)** — agents defined by version-controlled SOUL.md, RULES.md, memory, tools and skills, with repository-based forking and inheritance. MIT.
 - **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) — an agent harness with a global SOUL.md persona file, agent-curated persistent memory, skills learned from tasks and searchable past sessions. MIT.
 - **[Letta](https://www.letta.com)** (MemGPT lineage) — stateful agents with editable memory, persistent conversations and git-tracked context through MemFS. The current open-source harness is [Letta Code](https://github.com/letta-ai/letta-code), with local, self-hosted and cloud options.
@@ -161,6 +162,12 @@ alphabetical by displayed title.
 - **Code Is the Body: Agent-Owned Software Bodies for Recursive Evolution and Descent** (OurArk) —
   [arXiv:2607.28691](https://arxiv.org/abs/2607.28691) — versioned agent embodiment and
   descent.
+- **[Don't build multi-agents](https://cognition.ai/blog/dont-build-multi-agents)** (Cognition) —
+  the case for one context that persists over many agents that forget: a single thread keeps
+  state, judgment and tool context rather than resetting them with each new agent.
+- **[How we built our multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system)** (Anthropic) —
+  an orchestrator that keeps the thread while subagents work in their own context; the token
+  multiplier of fan-out is measured, a cost that any persistent-context budget must price.
 - **Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents**
   (Tallam) — [arXiv:2604.14717](https://arxiv.org/abs/2604.14717) — names the salient
   failure mode of persistent self-modifying agents as compositional drift: locally
