@@ -186,6 +186,10 @@ alphabetical by displayed title.
   [arXiv:2604.09588](https://arxiv.org/abs/2604.09588) — an architecture and proposed extensions for distributing identity across
   multiple memory anchors to improve resilience to summarization and loss; the paper behind
   soul.py (in Tooling above).
+- **[Steve Yegge's Eight Levels of AI-Assisted Development](https://www.augmentcode.com/guides/steve-yegge-8-levels-ai-assisted-development)**
+  (Augment Code) — a ladder for where persistent, orchestrated agents sit: the break at level 5 is
+  one synchronous context becoming many asynchronous ones, and level 8 is a custom orchestrator with
+  a shared queue, a coordinator process and checkpointing.
 - **[Why We Built Pion](https://andonlabs.com/blog/why-we-built-pion)** (Andon Labs) —
   a September 2026 account of a year running vending machines, cafés and retail with
   persistent agents given real accounts and money: simulation did not predict the
