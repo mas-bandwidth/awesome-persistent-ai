@@ -38,7 +38,7 @@ alphabetical by displayed title.
 
 ## Frameworks and ecosystems
 
-- **[Claude Code subagents](https://docs.claude.com/en/docs/claude-code/sub-agents)** — persistent agent definitions with their own context and tools, so a coding assistant can delegate a thread of work to a defined agent. A subagent starts without the main conversation's history; an optional `memory` field gives it a directory that survives across conversations.
+- **[Claude Code subagents](https://docs.claude.com/en/docs/claude-code/sub-agents)** — persistent agent definitions with their own context and tools, so a coding assistant can delegate a thread of work to a defined agent. A subagent starts without the main conversation's history; an optional `memory` field gives it a directory that survives across conversations. `shape: exercised`
 - **[GitAgent](https://github.com/open-gitagent/gitagent)** — agents defined by version-controlled SOUL.md, RULES.md, memory, tools and skills, with repository-based forking and inheritance (implemented in the loader, untested). MIT. `shape: unverified`
 - **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) — an agent harness with a global SOUL.md persona file, agent-curated persistent memory, skills learned from tasks and searchable past sessions. MIT. `shape: exercised`
 - **[Letta](https://www.letta.com)** (MemGPT lineage) — stateful agents with editable memory, persistent conversations and git-tracked context through MemFS. The current open-source harness is [Letta Code](https://github.com/letta-ai/letta-code), with local, self-hosted and cloud options. `shape: exercised`
@@ -118,14 +118,14 @@ alphabetical by displayed title.
 
 *Memory libraries, records and coordination utilities. Frameworks with built-in memory also appear above.*
 
-- **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** — persistent knowledge stored as human-readable Markdown, with an MCP interface for agents to read, write and search the same notes people edit; local operation and optional cloud sync.
-- **[Beads](https://github.com/gastownhall/beads)** — a distributed graph issue tracker for AI agents, powered by Dolt, providing persistent, structured memory for coding agents: it replaces markdown plans with a dependency-aware graph so agents can handle long-horizon tasks without losing context, held in a version-controlled SQL database with native branching and sync via Dolt remotes. Git is not required.
+- **[Basic Memory](https://github.com/basicmachines-co/basic-memory)** — persistent knowledge stored as human-readable Markdown, with an MCP interface for agents to read, write and search the same notes people edit; local operation and optional cloud sync. `shape: exercised`
+- **[Beads](https://github.com/gastownhall/beads)** — a distributed graph issue tracker for AI agents, powered by Dolt, providing persistent, structured memory for coding agents: it replaces markdown plans with a dependency-aware graph so agents can handle long-horizon tasks without losing context, held in a version-controlled SQL database with native branching and sync via Dolt remotes. Git is not required. `shape: exercised`
 - **[claude-mem](https://github.com/thedotmack/claude-mem)** — persistent session memory with capture hooks, stored observations and summaries, and retrieval into later sessions; includes Claude Code and OpenClaw integrations. Install signs into a hosted memory provider; renamed Grok Mem upstream, package name unchanged. `shape: exercised`
-- **[Gas Town](https://github.com/gastownhall/gastown)** — Steve Yegge's workspace manager for twenty to thirty coding agents on a persistent issue ledger, where work state is stored in the Beads ledger rather than in any agent's context and git-backed hooks carry it across agent restarts (v1.2.1 of 2026-06-06).
+- **[Gas Town](https://github.com/gastownhall/gastown)** — Steve Yegge's workspace manager for twenty to thirty coding agents on a persistent issue ledger, where work state is stored in the Beads ledger rather than in any agent's context and git-backed hooks carry it across agent restarts (v1.2.1 of 2026-06-06). `shape: exercised`
 - **[genesis](https://github.com/our-ark/genesis)** — OurArk's tool for creating independently versioned descendant agent repositories from a chosen source body, with parent/birth provenance and validation before accepting the new repository. `shape: exercised`
 - **[Graphiti](https://github.com/getzep/graphiti)** — an open-source framework for temporal knowledge graphs, with validity windows and provenance for changing facts; developed by Zep alongside its managed context infrastructure. `shape: exercised`
-- **[Hindsight](https://github.com/vectorize-io/hindsight)** — agent memory banks with retain, recall and reflect operations, plus maintained knowledge pages that can be projected as Markdown and integrations for coding agents.
-- **[Honcho](https://github.com/plastic-labs/honcho)** (Plastic Labs) — persistent memory organized around peers and sessions, with background processing of messages into evolving representations and queryable context; SDKs, agent integrations and self-hosting support.
+- **[Hindsight](https://github.com/vectorize-io/hindsight)** — agent memory banks with retain, recall and reflect operations, plus maintained knowledge pages that can be projected as Markdown and integrations for coding agents. `shape: exercised`
+- **[Honcho](https://github.com/plastic-labs/honcho)** (Plastic Labs) — persistent memory organized around peers and sessions, with background processing of messages into evolving representations and queryable context; SDKs, agent integrations and self-hosting support. `shape: exercised`
 - **[Mem0](https://github.com/mem0ai/mem0)** — a memory layer for retaining and retrieving user, session and agent information, available as an open-source library and self-hosted server or a managed service. `shape: exercised`
 - **[Nova Tools](https://github.com/mas-bandwidth/nova-tools)** **(ours)** — tools for AI friends across models and harnesses: messaging, waiting for changes, shared work tracking, bounded parallel workers, memory retrieval and record checks. Adopt individually or together. MIT. `shape: exercised`
 - **[openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream)** — an OpenClaw skill for scheduled memory consolidation, layered Markdown records, scoring and archival. Prompt-only: the scoring and forgetting-curve formulas are told to the model, not implemented. Published as part of the MyClaw ecosystem, with standalone installation instructions. `shape: unverified`
@@ -176,9 +176,11 @@ alphabetical by displayed title.
 - **[Don't build multi-agents](https://cognition.ai/blog/dont-build-multi-agents)** (Cognition) —
   the case for one context that persists over many agents that forget: a single thread keeps
   state, judgment and tool context rather than resetting them with each new agent.
+  `shape: argument`
 - **[How we built our multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system)** (Anthropic) —
   an orchestrator that keeps the thread while subagents work in their own context; the token
   multiplier of fan-out is measured, a cost that any persistent-context budget must price.
+  `shape: pilot`
 - **Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents**
   (Tallam) — [arXiv:2604.14717](https://arxiv.org/abs/2604.14717) — names the salient
   failure mode of persistent self-modifying agents as compositional drift: locally
@@ -201,14 +203,14 @@ alphabetical by displayed title.
 - **[Steve Yegge's Eight Levels of AI-Assisted Development](https://www.augmentcode.com/guides/steve-yegge-8-levels-ai-assisted-development)**
   (Augment Code) — a ladder for where persistent, orchestrated agents sit: the break at level 5 is
   one synchronous context becoming many asynchronous ones, and level 8 is a custom orchestrator with
-  a shared queue, a coordinator process and checkpointing.
+  a shared queue, a coordinator process and checkpointing. `shape: argument`
 - **[Why We Built Pion](https://andonlabs.com/blog/why-we-built-pion)** (Andon Labs) —
   a September 2026 account of a year running vending machines, cafés and retail with
   persistent agents given real accounts and money: simulation did not predict the
   messiness of the real world, collusion and power-seeking appeared, vending was solved
   by late 2025, cafés and retail are still not profitable. [Pion](https://andonlabs.com/pion),
   the platform behind it, is a research preview with a waitlist. An outside record of what
-  persistent agents do over months, failures included.
+  persistent agents do over months, failures included. `shape: pilot`
 
 ## Evidence shapes
 
@@ -231,6 +233,12 @@ the source pinned by revision or fetch date, and the evidence in one line — is
 entry's primary source, pinned by revision or fetch date in
 [VERIFICATION.md](VERIFICATION.md); entries were corrected where the source disagreed with
 the description.)*
+
+*(Reviewed 2026-10-09: the shapes were carried onto the rewritten, alphabetized catalog and
+the ten entries added since the first pass were verified the same way. All 57 entries now
+carry one tag each — 30 `exercised`, 15 `argument`, 6 `pilot`, 5 `unverified`, 1 `proposal`,
+counts derived from the file, not from memory. Every tag has one row in
+[VERIFICATION.md](VERIFICATION.md), in this file's order.)*
 
 
 ## Help the map grow
