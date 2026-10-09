@@ -238,7 +238,9 @@ the description.)*
 the ten entries added since the first pass were verified the same way. All 57 entries now
 carry one tag each — 30 `exercised`, 15 `argument`, 6 `pilot`, 5 `unverified`, 1 `proposal`,
 counts derived from the file, not from memory. Every tag has one row in
-[VERIFICATION.md](VERIFICATION.md), in this file's order.)*
+[VERIFICATION.md](VERIFICATION.md), in this file's order. The 47 entries that predate this
+pass were not re-fetched today and keep their 2026-09-07 pins, apart from three live-site
+rows re-read on 2026-10-09.)*
 
 
 ## Help the map grow
