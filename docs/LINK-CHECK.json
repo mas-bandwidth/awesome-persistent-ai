@@ -185,6 +185,20 @@
       "checked_at": "2026-09-13T12:45:43.980567+00:00"
     },
     {
+      "url": "https://github.com/gastownhall/beads",
+      "status": 200,
+      "resolved_url": "https://github.com/gastownhall/beads",
+      "attempts": 1,
+      "checked_at": "2026-10-09T17:21:27.038795+00:00"
+    },
+    {
+      "url": "https://github.com/gastownhall/gastown",
+      "status": 200,
+      "resolved_url": "https://github.com/gastownhall/gastown",
+      "attempts": 1,
+      "checked_at": "2026-10-09T17:21:28.054988+00:00"
+    },
+    {
       "url": "https://github.com/getzep/graphiti",
       "status": 200,
       "resolved_url": "https://github.com/getzep/graphiti",
